@@ -1,0 +1,165 @@
+/* Importar la fuente desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+/* Aplicar la fuente Roboto Mono a todo el cuerpo */
+body {
+    background-color: #f0f2f5;
+    font-family: 'Roboto Mono', monospace;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+#chat-area {
+    background: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 100%;
+    overflow-y: auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    word-wrap: break-word;
+    max-width: 80%;
+    margin: 10px 0;
+    padding: 12px 16px;
+    border-radius: 18px;
+    font-size: 14px;
+    line-height: 1.4;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message.bot {
+    background-color: #d6d6d6;
+    color: #333;
+    align-self: flex-start;
+    border-radius: 12px;
+    padding: 10px 16px;
+    margin: 5px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.message.user {
+    background-color: #55555585;
+    color: #fff;
+    align-self: flex-end;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 18px; 
+}
+
+/* Estilo para las imágenes */
+.message img.icon {
+    border-radius: 50%;
+    width: 40px; 
+    height: 40px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+    margin-right: 12px; 
+    border: 2px solid white; 
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el contenedor de markdown */
+.stMarkdown {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Estilo para mensajes de error */
+#erro {
+    color: #d9534f;
+    font-weight: bold;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Estilo para mensajes de aviso */
+.aviso {
+    font-size: 0.9rem;
+    color: #856404;
+    font-style: italic;
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Estilo para el campo de texto */
+.stTextInput input {
+    border-radius: 10px;
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+.stTextInput input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Estilo para los botones */
+.stButton button {
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Estilo para el estado hover de los botones */
+.stButton button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Estilo para el estado activo de los botones */
+.stButton button:active {
+    background-color: #004494;
+    transform: scale(0.95);
+}
+
+/* Estilo para el contenedor de botones */
+.stButton {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+/* Scrollbar styles */
+#chat-area::-webkit-scrollbar {
+    width: 8px;
+}
+
+#chat-area::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+#chat-area::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+#chat-area::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
