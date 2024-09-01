@@ -2,7 +2,7 @@
  Gemini Bot made with streamlit library. With a stylised and pleasant interface, capable of interacting with the user, providing the most diverse responses and interactions, from text chat to images and files such as PDFs. With it you can make enquiries and ask questions, whether specific or not.
 
 ### Demo Vídeo:
-https://github.com/TitanCodeXD/Chat-Bot/assets/91525737/686d16d1-33db-49c2-b102-4558bf630289
+
 
 
 ## Features
@@ -16,7 +16,7 @@ https://github.com/TitanCodeXD/Chat-Bot/assets/91525737/686d16d1-33db-49c2-b102-
 - Chat Interface: Provides a chat interface to interact with the chatbot.
 
 ### Website Link
---> https://chat-bot-python-gemini.streamlit.app
+--> https://gua3abakfey7vtwmlbxemh.streamlit.app
 ![Home_Page](https://github.com/TitanCodeXD/Chat-Bot/assets/91525737/11169738-78c9-4828-b37c-07608004627f)
 
 ## Dependencies and Acknowledgments
