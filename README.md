@@ -17,7 +17,7 @@
 
 ### Website Link
 --> https://gua3abakfey7vtwmlbxemh.streamlit.app
-![Home_Page](https://github.com/TitanCodeXD/Chat-Bot/assets/91525737/11169738-78c9-4828-b37c-07608004627f)
+
 
 ## Dependencies and Acknowledgments
 - [Python](https://www.python.org)
