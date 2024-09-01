@@ -1,7 +1,6 @@
 # CHAT BOT WITH GEMINI 📕
  Gemini Bot made with streamlit library. With a stylised and pleasant interface, capable of interacting with the user, providing the most diverse responses and interactions, from text chat to images and files such as PDFs. With it you can make enquiries and ask questions, whether specific or not.
 
-### Demo Vídeo:
 
 
 
